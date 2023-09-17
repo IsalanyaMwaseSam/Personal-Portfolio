@@ -46,7 +46,7 @@ export const NavBar = () => {
               <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
               <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
               <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
-              <Nav.Link  href="\src\assets\docs\Isalanya-Sam-Mwase-CV.pdf" download="Isalanya-Sam-Mwase-CV.pdf" className="navbar-link" target="_blank">CV</Nav.Link>
+              <Nav.Link  href="/Isalanya-Sam-Mwase-CV.pdf" download="Isalanya-Sam-Mwase-CV.pdf" className="navbar-link" target="_blank">CV</Nav.Link>
             </Nav>
             <span className="navbar-text">
               <HashLink to='#connect'>
