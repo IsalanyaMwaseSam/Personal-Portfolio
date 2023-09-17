@@ -46,14 +46,9 @@ export const NavBar = () => {
               <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
               <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
               <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
-              <a  href="\src\assets\docs\Isalanya-Sam-Mwase-CV.pdf" download="Isalanya-Sam-Mwase-CV.pdf" className="navbar-link" style={{ textDecoration: 'none', color: 'white' }} target="_blank">CV</a>
+              <Nav.Link  href="\src\assets\docs\Isalanya-Sam-Mwase-CV.pdf" download="Isalanya-Sam-Mwase-CV.pdf" className="navbar-link" target="_blank">CV</Nav.Link>
             </Nav>
             <span className="navbar-text">
-              <div className="social-icon">
-                <a href="#"><img src={navIcon1} alt="" /></a>
-                <a href="tel:+256705876748"><img src={whatsappIcon} alt="" /></a>
-                <a href="https://github.com/IsalanyaMwaseSam"><img src={githubIcon} alt="" /></a>
-              </div>
               <HashLink to='#connect'>
                 <button className="vvd"><span>Let’s Connect</span></button>
               </HashLink>
